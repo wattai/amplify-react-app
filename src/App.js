@@ -79,7 +79,7 @@ function App() {
               <p>{note.description}</p>
               <button onClick={() => deleteNote(note)}>Delete note</button>
               {
-                note.image && <img src={note.image} stype={{ width: 400 }} />
+                note.image && <img src={note.image} alt="" style={{ width: 400 }} />
               }
             </div>
           ))
